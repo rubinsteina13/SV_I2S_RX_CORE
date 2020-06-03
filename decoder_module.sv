@@ -30,6 +30,7 @@
   *
   ***********************************************************************************
   */
+
 module decoder_module #(
 	parameter	INPUT_WIDTH	= 5,
 			OUTPUT_WIDTH	= 32
