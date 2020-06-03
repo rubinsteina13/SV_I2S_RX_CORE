@@ -55,8 +55,8 @@ module top_i2s_rx_module #(
 		.CNT_RES	( LOG2_FRAME_RES	)
 	) cntr (
 		.rst_i		( wsp			),
-		.clk_i		( ~bck_i		),
-		.en_i		( ~en_data[FRAME_RES-1]	),
+		.clk_i		(~bck_i			),
+		.en_i		(~en_data[FRAME_RES-1]	),
 		.cnt_o		( cnt			)
 	);
 	
@@ -78,7 +78,7 @@ module top_i2s_rx_module #(
 				.clk_i	( bck_i			),
 				.q_o	( data[i]		)
 			);
-		end
+		end: forgen
 	endgenerate
 
 	assign wsp = wsd ^ wsn;
