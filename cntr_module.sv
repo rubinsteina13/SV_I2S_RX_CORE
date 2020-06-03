@@ -39,6 +39,7 @@ module cntr_module #(
 	input	logic			rst_i, clk_i, en_i,
 	output	logic	[CNT_RES-1:0]	cnt_o
 );
+	
 	always_ff @(posedge clk_i) begin
 		if(rst_i)
 			cnt_o <= 0;
