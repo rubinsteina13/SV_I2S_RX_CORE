@@ -19,8 +19,7 @@ This I2S receiver Digital IP-Core is a SystemVerilog representation of the I2S (
 * Inputs
   * bck_i - bit clock signal (BCK)
   * lrck_i - left-right channel clock signal (LRCK)
-  * dat_i - data bitstream signal
-  * b_i   - input vector B
+  * dat_i - data bitstream signal (DATA)
 * Outputs
   * left_o - left data output bus
   * right_o - right data output bus
