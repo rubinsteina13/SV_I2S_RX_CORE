@@ -1,6 +1,6 @@
-# I2S receiver Synthesizable Digital IP-Core
+# Synthesizable SystemVerilog IP-Core of the I2S receiver
 
-This I2S receiver Digital IP-Core is a SystemVerilog representation of the I2S (audio data format) receiver digital circuit diagram from [I2S bus specification document](./I2SBUS_Specification.pdf "I2S bus specification"), page 6.
+This Synthesizable IP-Core of I2S receiver is a SystemVerilog representation of the I2S (audio data format) receiver digital circuit from [I2S bus specification document](./I2SBUS_Specification.pdf "I2S bus specification"), page 6.
 
 * Project structure
 	* I2SBUS_Specification.pdf - I2S bus specification document
