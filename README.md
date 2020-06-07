@@ -1,6 +1,6 @@
 # Synthesizable SystemVerilog IP-Core of the I2S receiver
 
-This Synthesizable IP-Core of I2S receiver is a SystemVerilog representation of the I2S (audio data format) receiver digital circuit from [I2S bus specification document](./I2SBUS_Specification.pdf "I2S bus specification"), page 6.
+This Synthesizable IP-Core of I2S receiver is a SystemVerilog representation of the I2S (audio data format) receiver digital circuit from [I2S bus specification document](./I2SBUS_Specification.pdf "I2S bus specification"), page 6. The uniqueness of this implementation of the I2S receiver lies in the fact that during the synthesis of the circuit, only the necessary number of D-triggers is generated in accordance with the bit depth of the audio data (DATA_RES), which allows to occupy a minimum of FPGA or CPLD resources.
 
 * Project structure
 	* I2SBUS_Specification.pdf - I2S bus specification document
